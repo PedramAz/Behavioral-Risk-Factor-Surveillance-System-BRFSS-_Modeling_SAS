@@ -1,0 +1,24 @@
+data r.BRFSS_b;
+	set r.BRFSS_a (keep=
+	VETERAN3
+	ASTHMA3
+	DIABETE3
+	SLEPTIM1
+	_AGE_G
+	SMOKE100
+	SMOKDAY2
+	SEX
+	_HISPANC
+	_MRACE1
+	MARITAL
+	GENHLTH
+	HLTHPLN1
+	EDUCA
+	INCOME2
+	_BMI5CAT
+	EXERANY2);
+run;	
+
+proc contents data=r.BRFSS_b;
+run;
+
