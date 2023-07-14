@@ -1,4 +1,3 @@
-
 /*set libname as r*/
 Libname r "/home/u56707295/PA_My_Content/Data";
 run;
